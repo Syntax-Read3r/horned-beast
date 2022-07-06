@@ -1,3 +1,58 @@
+# Time Estimate
+
+### Number and name of feature: 
+1. Display Images
+##### Estimated Time to Completion:
+
+* 30 minutes
+
+##### Start time:
+* 14:53
+
+##### Finish time:
+* 15:06
+
+##### Time spent:
+* 13 minutes
+
+***
+
+### Number and name of feature: 
+1.Allow users to vote for their favourite beast.
+##### Estimated Time to Completion:
+
+* 30 minutes
+
+##### Start time:
+* 15:10
+
+##### Finish time:
+* 15:33
+
+##### Time spent:
+* 23 minutes
+
+***
+
+### Number and name of feature: 
+1. Boostrap the application.
+##### Estimated Time to Completion:
+
+* 60 minutes
+
+##### Start time:
+* 16:00
+
+##### Finish time:
+* 16:20
+
+##### Time spent:
+* 20 minutes
+
+
+***
+***
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +123,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+***
+***
+
