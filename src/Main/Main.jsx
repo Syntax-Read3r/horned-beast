@@ -5,7 +5,6 @@ import { Row, Col } from "react-bootstrap";
 
 class Main extends Component {
   render() {
-    console.log(this.props.data);
     return (
       <div className="main">
         <Container>
@@ -18,6 +17,7 @@ class Main extends Component {
                     imageUrl={beast.image_url}
                     description={beast.description}
                     selectedBeast={this.props.selectedBeast}
+                    displayModal={this.props.displayModal}
                   />
                 </Col>
               );

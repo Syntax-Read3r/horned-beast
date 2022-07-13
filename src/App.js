@@ -12,23 +12,26 @@ export default class App extends Component {
     super(props);
     this.state = {
       allBeast: data,
-      selectedBeast: null,
+      selectedBeast: {},
       displayAsModal: false,
     };
   }
 
   displayModal = (name) => {
     console.log("Show");
-    const selectedBeast = data.beasts.find((beast) => beast.name === name);
+    const selectedBeast = data.find((beast) => {
+      return beast.title === name;
+    });
+    // const selectedBeast = data.find((beast) => beast.title === name);
     this.setState({
       selectedBeast,
-      displayModal: true,
+      displayAsModal: true,
     });
   };
 
   handleClose = () => {
     this.setState({
-      displayModal: false,
+      displayAsModal: false,
     });
   };
 

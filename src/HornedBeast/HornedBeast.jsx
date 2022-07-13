@@ -12,7 +12,7 @@ export default class HornedBeast extends Component {
     this.setState({
       numOfClicks: this.state.numOfClicks + "💞",
     });
-    // change props that are passed from app to change which beast is shown
+    this.props.displayModal(this.props.title);
   };
 
   render() {
