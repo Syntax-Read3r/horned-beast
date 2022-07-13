@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-class HornedBeast extends Component {
+export default class HornedBeast extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -33,4 +33,3 @@ class HornedBeast extends Component {
   }
 }
 
-export default HornedBeast;
