@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import { Modal } from 'react-bootstrap'
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
+import React, { Component } from "react";
+import { Modal } from "react-bootstrap";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 export default class SelectedBeast extends Component {
   render() {
@@ -13,7 +13,7 @@ export default class SelectedBeast extends Component {
           </Modal.Header>
 
           <Modal.Body>
-            <Card bg="dark" text="light" onClick={this.displayAsModal}>
+            <Card bg="dark" text="light" onClick={this.props.displayAsModal}>
               <Card.Img
                 variant="top"
                 alt={this.props.selectedBeast.title}
@@ -33,6 +33,6 @@ export default class SelectedBeast extends Component {
           </Modal.Footer>
         </Modal.Dialog>
       </Modal>
-    )
+    );
   }
 }
