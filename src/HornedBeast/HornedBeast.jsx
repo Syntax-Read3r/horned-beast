@@ -1,19 +1,19 @@
 import { Component } from "react";
 
 export default class HornedBeast extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-          numOfClicks: '',
-        }
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      numOfClicks: "",
+    };
+  }
 
-    handleFavorite = () => {
-        this.setState({
-          numOfClicks: this.state.numOfClicks + '💞',
-        })
-    }
-
+  handleFavorite = () => {
+    this.setState({
+      numOfClicks: this.state.numOfClicks + "💞",
+    });
+    // change props that are passed from app to change which beast is shown
+  };
 
   render() {
     return (
@@ -32,4 +32,3 @@ export default class HornedBeast extends Component {
     );
   }
 }
-
